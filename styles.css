@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font: 100px ;
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    position:relative;
+    width:100%;
+    height: 10vh;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
+.juspay-logo{
+    height: 50px;
+    margin: 0 5rem;
+}
+.navlist{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1rem;
+}
+
+.navlist > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 3rem;
+}
+.navlist > ul > li {
+    padding: 0 1rem;
+    margin: 0 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: "Helvetica Neue",;
+}
+.juspay-container {
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,.8) ;
+}
+.content{
+    justify-content:left;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.content h1{
+    color: #80a3ea;
+    font-size: 2.625rem;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.content h2{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 5rem;
+}
+.image img{
+    position: absolute;
+    left: 850px;
+    top: 180px;
+    height: 550px;
+    width: 480px;
+}
+.content p{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: large;
+}
+.btn{
+    background-color: #05f;
+    margin: 2rem;
+    padding: 0.7rem 1.1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.signup{
+    background-color: #fff;
+    padding: 0.7rem 1rem;
+    color:  rgba(0,0,0,.8);
+    font-size: 1.2rem;
+    font-weight: 550;
+    border-radius: 10px;
+}
+.juspay-container1{
+    background-color: hwb(224 95% 0%);
+    height: 60vh;
+}
+
+.juspay-container1 h2{
+    padding-top:80px;
+    color:#082449;
+    text-align: center;
+    font-size: 2.125rem;;
+
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.logos1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.juspay-container2{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hwb(224 95% 0%);
+    
+}
+.content-1 h2{
+    color: #082449;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin: -0.2em 0 0;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color: hwb(224 95% 0%);
+}
+.info{
+    font: 1em sans-serif;
+    font-size: 3.625rem;
+    font-weight: 700;
+}
+.transactions{
+    height:250px;
+    width:180px;
+    margin-left: 100px;
+}
+.uptime{
+    height:250px;
+    width:180px;
+}
+.app{
+    height:250px;
+    width:180px;
+}
+.annualize{
+    height:250px;
+    width:180px;
+    margin-right: 100px;
+}
+.juspay-container2 h3{
+    color: #234EA4;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.juspay-container2  p{
+    color: #222428;
+    max-width: 100%;
+    text-align: center;
+}
+.count1{
+    color:#234EA4 ;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+.count{
+    font-weight: 500;
+    font-size: 3rem;
+    text-transform: none;
+}
+.count3{
+    margin-left: 40px;
+}
+.juspay-container3{
+    background-color: rgba(0,0,0,.8) ;
+    width:100%;
+    height:200vh;
+}
+.content3{
+    color:#fff;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin: -0.2em 0 0;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.img3{
+    padding-left: 120px;
+    padding-top: 50px;
+    width: 480px;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+.content2 h2{
+    color: #80a3ea;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -.03em;
+    margin-bottom: 1rem;
+}
+.content2 h3{
+    font-size: 1.38316rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+.content2 p{
+    color:#fff;
+    font-size: normal;
+}
+footer {
+    background-color:#fff;
+    color: black;
+    padding: 20px 0;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.footer-section {
+    flex: 2;
+}
+  
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+  
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section ul li {
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+  
+.footer-bottom {
+    margin-top: 50px;
+    text-align: center;
+}
+  
+ 
+
+
+
+
